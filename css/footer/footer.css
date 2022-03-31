@@ -47,7 +47,7 @@ footer nav {
 footer nav a {
     color: white;
     font-size: 13px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin: 0px 14px;
 }
 
