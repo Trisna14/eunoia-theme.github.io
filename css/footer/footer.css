@@ -1,0 +1,60 @@
+footer {
+    background-color: rgb(27, 27, 27);
+    position: relative;
+    padding: 14px;
+}
+
+footer .footer {
+    color: white;
+    border: 1px solid rgba(245, 245, 245, 0.13);
+    padding: 10px 20px;
+    text-align: right;
+    font-size: 14px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+footer .footer a {
+    color: white;
+    margin: 8px 4px;
+    transition: 0.6s;
+    /* text-transform: capitalize; */
+}
+
+footer .footer a:hover {
+    color: rgb(194, 192, 192);
+}
+
+footer .contact {
+    padding: 8px;
+    font-size: 18px;
+    text-align: right;
+    /* border-bottom: 1px solid rgba(245, 245, 245, 0.219); */
+}
+
+footer .contact a {
+    color: white;
+    margin: 0 12px;
+    
+}
+
+footer nav {
+    text-align: right;
+    padding: 8px 30px;
+    color: white;
+}
+
+footer nav a {
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+    margin: 0px 14px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    footer .footer {
+        font-size: 10px;
+    }
+}
+
