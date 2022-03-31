@@ -13,6 +13,7 @@
 @import url('footer/footer.css');
 @import url('details/details.css');
 @import url('comments/comments.css');
+@import url('shield/shield.css');
 
 * {
     /* border: 1px solid black; */
