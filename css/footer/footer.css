@@ -51,6 +51,11 @@ footer nav a {
     margin: 0px 14px;
 }
 
+footer nav a.off {
+    color: rgba(236, 225, 225, 0.879);
+    cursor: default;
+}
+
 @media only screen and (max-width: 600px) {
 
     footer .footer {
