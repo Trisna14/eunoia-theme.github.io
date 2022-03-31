@@ -49,6 +49,24 @@ footer nav a {
     font-size: 13px;
     /* text-transform: capitalize; */
     margin: 7px 14px;
+    position: relative;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+}
+
+footer nav a::after {
+    content: '';
+    display: block;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.769);
+    width: 15px;
+    /* margin-top: 20px; */
+    /* margin: auto; */
+    bottom: -5px;
+    /* margin: auto !important; */
+    /* text-align: center; */
+    margin: auto;
+    border-radius: 8px;
 }
 
 footer nav a.off {
